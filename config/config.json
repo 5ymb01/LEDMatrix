@@ -34,7 +34,7 @@
         "display_durations": {
             "clock": 15,
             "weather": 15,
-            "stocks": 200,
+            "stocks": 230,
             "hourly_forecast": 15,
             "daily_forecast": 15,
             "stock_news": 45,
@@ -94,9 +94,9 @@
 	 "XOM", "CVX", "SHEL", "BP", "HOG", "HON", "MMM", "ADBE", "GC=F", "SI=F", "NG=F", "HG=F", "CL=F" 
         ],
         "display_format": "{symbol}: ${price} ({change}%)",
-        "scroll_speed": 1,
+        "scroll_speed": 2,
         "scroll_delay": 0.01,
-        "toggle_chart": true
+        "toggle_chart": false
     },
     "crypto": {
         "enabled": true,
@@ -187,7 +187,7 @@
         "recent_games_to_show": 0,
         "upcoming_games_to_show": 2,
         "show_favorite_teams_only": true,
-        "favorite_teams": ["PIT", "CLE"],
+        "favorite_teams": ["CLE", "PIT"],
         "logo_dir": "assets/sports/nfl_logos",
         "show_records": true,
         "display_modes": {
@@ -218,7 +218,7 @@
         }
     },
     "ncaa_baseball_scoreboard": {
-        "enabled": false,
+        "enabled": true,
         "show_odds": true,
         "test_mode": false,
         "update_interval_seconds": 3600,
@@ -237,7 +237,7 @@
         }
     },
     "ncaam_basketball_scoreboard": {
-        "enabled": false,
+        "enabled": true,
         "show_odds": true,
         "test_mode": false,
         "update_interval_seconds": 3600,
